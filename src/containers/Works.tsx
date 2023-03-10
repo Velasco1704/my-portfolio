@@ -2,13 +2,13 @@ import { BsArrowUpRight, BsGithub } from "react-icons/bs";
 import tesla from "@assets/tesla.jpg";
 import rolex from "@assets/rolex.jpg";
 import todo from "@assets/todo.jpg";
-import netflix from "@assets/netflix.jpg";
+import movie from "@assets/movie.png";
 
 export const Works = () => {
   return (
     <section
       id="works"
-      className="text-white flex items-center w-full h-[100vh]"
+      className="text-white flex items-center w-full h-[100svh]"
     >
       <div className="mx-auto flex flex-col justify-center items-center gap-10">
         <h1 className="text-5xl lg:text-7xl">My Projects</h1>
@@ -76,21 +76,21 @@ export const Works = () => {
           </div>
           <div className="relative">
             <h3 className="text-lg text-center bg-black/60 rounded-t-md lg:text-xl">
-              Netflix App
+              Movie App
             </h3>
-            <img className="rounded-b-md" src={netflix} alt="netflix" />
+            <img className="rounded-b-md" src={movie} alt="netflix" />
             <a
-              href="https://my-netflix-app-dv.netlify.app"
+              href="https://my-app-movies-dv.netlify.app"
               target="_blank"
-              className="absolute bottom-4 right-2 bg-black/30 p-2 rounded-[50%]"
+              className="absolute bottom-4 right-2 bg-black/50 p-2 rounded-[50%]"
             >
               <BsArrowUpRight />
             </a>
 
             <a
-              href="https://github.com/Velasco1704/Netflix-app"
+              href="https://github.com/Velasco1704/tmdb-ts-app"
               target="_blank"
-              className="absolute bottom-4 right-12 bg-black/30 p-2 rounded-[50%]"
+              className="absolute bottom-4 right-12 bg-black/50 p-2 rounded-[50%]"
             >
               <BsGithub />
             </a>

@@ -13,7 +13,7 @@ export const About = () => {
   return (
     <section
       id="studies"
-      className="text-white flex items-center w-full h-[100vh]"
+      className="text-white flex items-center w-full h-[100svh]"
     >
       <motion.div
         variants={fadeIn("up", 0.2)}

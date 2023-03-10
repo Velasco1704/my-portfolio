@@ -4,7 +4,7 @@ import { fadeIn } from "@src/variants";
 
 export const Home = () => {
   return (
-    <section id="home" className="text-white flex items-center w-full h-[93vh]">
+    <section id="home" className="text-white flex items-center w-full h-[93svh]">
       <div className="w-full mx-auto flex flex-col justify-center items-center gap-y-20">
         <motion.h1
           variants={fadeIn("up", 0.2)}
